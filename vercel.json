@@ -1,8 +1,7 @@
-// vercel.json
 {
   "headers": [
     {
-      "source": "/(.*\\.html)", // Applies to all HTML files
+      "source": "/(.*\\.html)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -11,7 +10,7 @@
       ]
     },
     {
-      "source": "/(.*\\.(?:css|js|jpg|jpeg|gif|png|svg|webp))", // Applies to common static assets
+      "source": "/(.*\\.(?:css|js|jpg|jpeg|gif|png|svg|webp))",
       "headers": [
         {
           "key": "Cache-Control",
